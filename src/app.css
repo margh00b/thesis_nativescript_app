@@ -1,0 +1,51 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+/* Place any CSS rules you want to apply on both iOS and Android here.
+This is where the vast majority of your CSS code goes. */
+
+.screen-red {
+    background-color: red;
+}
+
+.screen-blue {
+    background-color: blue;
+}
+
+.btn {
+    background-color: rgb(0, 132, 255);
+}
+
+.appbar {
+    background-color: rgb(0, 217, 255);
+    color: white
+}
+
+.buttonContainer {
+    margin-top: '50%';
+    flex-direction: "column";
+    justify-content: "center";
+    align-items: "center";
+  }
+.button {
+    background-color: '#5fd4f6';
+    border-radius: 4;
+    padding: 12;
+    margin: 10;
+    width: 120;
+  }
+.text {
+    color: '#000';
+    font-size: 16;
+    font-weight: 'bold';
+    text-align: 'center';
+    text-transform: 'uppercase'
+  }
+  .my-button {
+    margin-top: 200px;
+    background-color: #08fa00;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 10px;
+    width: 120px;
+  }
